@@ -1,0 +1,123 @@
+/* General styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #222;
+    color: white;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #00aaff;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: #00aaff;
+    color: white;
+}
+
+.hero button {
+    padding: 12px 25px;
+    background: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background: #f1f1f1;
+}
+
+/* Login Section */
+.login-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.login-section form {
+    max-width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-section input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.login-section button {
+    padding: 10px;
+    background: #00aaff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Products Section */
+.products {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.product-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.product button {
+    padding: 10px;
+    background: #00aaff;
+    color: white;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+}
