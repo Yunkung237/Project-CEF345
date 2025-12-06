@@ -1,0 +1,74 @@
+/* External Background Image (you can change the URL to your own) */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.form-box h1 {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.form-box h1 span {
+  color: #2196f3;
+}
+
+.form-box p {
+  color: #f0f0f0;
+  margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+button {
+  padding: 12px 25px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #1976d2;
+}
+
+.toggle {
+  margin-top: 15px;
+  font-size: 14px;
+  color: white;
+}
+
+.toggle a {
+  color: #90caf9;
+  text-decoration: none;
+}
